@@ -8,16 +8,27 @@ My personal start template to create a React project
 - Babel
 - Dotenv
 - Gitignore
-- React 18.2.0
+- React
+- Prettier
 
-how to install:
+### install:
 
     npm install
 
-or
+### Scripts:
 
-    npm install @babel/core @babel/plugin-transform-runtime @babel/plugin-transform-runtime @babel/preset-env @babel/preset-react babel-loader clean-terminal-webpack-plugin css-loader html-loader html-webpack-plugin mini-css-extract-plugin sass sass-loader webpack webpack-cli webpack-cli webpack-dev-server webpack-messages path ip -D
+ > **Run scripts with:** npm run [script-name]
 
-    npm install dotenv-webpack react react-dom
+|script-name|description|
+|---|---|
+|check-updates|Search for dependencies updates|
+|build|Compiles the project in dist folder|
+|start|Serve Webpack dev server|
+|commit|Add changes and commit|
+|commit-patch|Add changes, update package patch version and commit|
+|commit-minor|Add changes, update package minor version and commit|
+|commit-major|Add changes, update package major version and commit|
 
-Later change the name of the project and the remote repository and start code!
+------------
+
+Change the name of the project and the remote repository and start code!
