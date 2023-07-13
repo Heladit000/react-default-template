@@ -19,9 +19,9 @@ My personal start template to create a React project
 
  > **Run scripts with:** npm run [script-name]
 
-|script-name|description|
+|npm-script-name|description|
 |---|---|
-|check-updates|Search for dependencies updates|
+|update|Search for dependencies updates|
 |build|Compiles the project in dist folder|
 |start|Serve Webpack dev server|
 |commit|Add changes and commit|

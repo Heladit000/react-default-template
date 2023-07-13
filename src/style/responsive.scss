@@ -1,0 +1,24 @@
+/*
+Author: Nicolás Esteban Prieto Sarmiento (nicolasestebanprieto44@gmail.com)
+Eventos Fantasia (c) 2023
+About: THIS FILE ONLY CAN BE DISTRIBUTED OR MODIFIED BY EVENTOS FANTASIA EMPLOYEE WITH AUTHORIZATION
+ */
+
+
+@mixin tablet {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media only screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media only screen and (min-width: 1200px) {
+    @content;
+  }
+}

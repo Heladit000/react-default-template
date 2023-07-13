@@ -1,0 +1,17 @@
+@import "@styles/colors";
+@import "@styles/responsive.scss";
+
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: $primary-color;
+
+  @include desktop {
+    h1 {
+      color: blue;
+    }
+  }
+}
