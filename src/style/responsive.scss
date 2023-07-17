@@ -1,9 +1,5 @@
-/*
-Author: Nicolás Esteban Prieto Sarmiento (nicolasestebanprieto44@gmail.com)
-Eventos Fantasia (c) 2023
-About: THIS FILE ONLY CAN BE DISTRIBUTED OR MODIFIED BY EVENTOS FANTASIA EMPLOYEE WITH AUTHORIZATION
- */
-
+//Global color variables can access importing
+//@import "@styles/responsive.scss" in .scss file
 
 @mixin tablet {
   @media only screen and (min-width: 768px) {
